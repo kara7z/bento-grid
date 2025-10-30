@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 12px;
+
+    font-family: DMSans;
+}
+
+.first-cl {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+
+    background-color: rgb(255, 244, 230);
+    padding: 30px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.first-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    font-size: 30px;
+    /* font-weight: 100; */
+    line-height: 2.5rem;
+    /* font-family: DMSans-italic; */
+
+}
+
+.first-cl img {
+    width: 16em;
+
+}
+
+.Second-cl img {
+    width: 230px;
+    height: auto;
+
+}
+
+.Second-cl {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 199, 105);
+    height: 50%;
+    width: 100%;
+    padding:  0 35px;
+    line-height: 40px;
+    /* gap: 20px; */
+
+}
+
+.left-a {
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.center-a {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    
+    gap: 40px;
+
+}
+.right-a {
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    
+    gap: 40px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+#First-h {
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+    font-family: DMSans;
+    font-size: 50px;
+
+}
+#-First-h {
+    color: white;
+    font-weight: 500;
+    font-family: DMSans;
+    font-size: 50px;
+
+}
+.-first-cl{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+
+    background-color: hsl(256, 67%, 59%);
+    color: white;
+    padding: 30px;
+    align-items: center;
+    border-radius: 12px;
+
+}
+   
+#Second-h {
+    color: hsl(256, 67%, 59%);
+    font-weight: 500;
+
+    /* font-weight:lighter; */
+
+    font-family: DMSans-italic;
+}
+.-first-cl img {
+    width: 16em;
+    display: flex;
+    align-self: center;
+
+}
+
+@font-face {
+    font-family: DMSans;
+    src: url(assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: DMSans-italic;
+    src: url(assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf);
+}
+.attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
